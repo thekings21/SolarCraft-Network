@@ -14,10 +14,10 @@ $timestamp = date("c", strtotime("now"));
 
 $json_data = json_encode([
     // Message
-    "content" => "Hello World! This is message line ;) And here is the mention, use userID <@12341234123412341>",
+    "content" => "Bienvenidos a SolarCraft Network, aquí encontraran la normativa de Discord, la cual es de **OBLIGADO** cumplimiento. use userID <@864073073702469632>",
     
     // Username
-    "username" => "krasin.space",
+    "username" => "theking_s",
 
     // Avatar URL.
     // Uncoment to replace image set in webhook
@@ -33,13 +33,13 @@ $json_data = json_encode([
     "embeds" => [
         [
             // Embed Title
-            "title" => "PHP - Send message to Discord (embeds) via Webhook",
+            "title" => "PHP - Normativa de Discord",
 
             // Embed Type
             "type" => "rich",
 
             // Embed Description
-            "description" => "Description will be here, someday, you can mention users here also by calling userID <@12341234123412341>",
+            "description" => "prueba",
 
             // URL of title link
             "url" => "https://gist.github.com/Mo45/cb0813cb8a6ebcd6524f6a36d4f8862c",
